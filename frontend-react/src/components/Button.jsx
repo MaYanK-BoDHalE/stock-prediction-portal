@@ -5,6 +5,7 @@ const Button = (props) => {
     <>
     <a href="" className={`btn ${props.class}`}>{props.text}</a>
     // asdfghjk sedfgbhnj xdcfvgbh
+    // asdfghjkl cvbnm dfgh
     
     </>
   )
