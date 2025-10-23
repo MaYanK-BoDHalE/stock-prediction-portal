@@ -8,11 +8,13 @@ import Login from './components/Login'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Dummy from './components/Dummy'
+import AuthProvider from './AuthProvider'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <AuthProvider>
     <BrowserRouter>
     <Header/>
     <Routes>
@@ -22,6 +24,7 @@ function App() {
     </Routes>
     <Footer/>
     </BrowserRouter>
+    </AuthProvider>
 
 
    
