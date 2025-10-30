@@ -3,6 +3,7 @@ import Button from './Button'
 import Header from './Header'
 import Footer from './Footer'
 
+
 const Main = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const Main = () => {
         <div className='p-5 text-center bg-light-dark rounded'>
             <h1>asdfghjkqwertyuiopxcvbn ngfdsa werty</h1>
             <p className='texte-light'> wsedrftgyhu bw4xe6crvty w4e6crvty wz5xe6crtvy</p>
-            <Button text='Login'class='btn-outline-info me-2' url='/login'/>
+            <Button text='Explore Now'class='btn-outline-info me-2' url='/dashbord'/>
         </div>
     </div>
     

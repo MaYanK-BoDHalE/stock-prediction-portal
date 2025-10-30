@@ -21,8 +21,12 @@ const Header = () => {
   <div className="container-fluid">
     <Link className="navbar-brand mb-0 h1" to='/'>Stock Prediction Portal</Link>
     <div >
-     {isLoggedIn ? (
-      <button className='btn btn-danger' onClick={handleLogout}>Logout</button>
+     {isLoggedIn ? (<>
+     <Button text='Dashbord'class='btn-outline-info me-2' url='/dashbord'/>
+     <Button text='Main'class='btn-outline-info me-2' url='/'/>
+     <button className='btn btn-danger' onClick={handleLogout}>Logout</button>
+     </>
+      
      ):(
       <>
       <Button text='Login'class='btn-outline-info me-2' url='/login'/>

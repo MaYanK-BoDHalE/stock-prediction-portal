@@ -26,8 +26,8 @@ const Login = () => {
       localStorage.setItem('access_token',response.data.access)
       localStorage.setItem('refresh_token',response.data.refresh)
       console.log('User logged in successfully');
-      navigate('/');
       setIsLoggedIn(true);
+      navigate('/');
     }catch(error){
       console.log('Login failed',error);
       setError('Invalid username or password');
